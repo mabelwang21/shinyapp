@@ -9,5 +9,5 @@ If you are happy with the seleted data, can click 'Download' button, and the sub
 
 ### 2. ShinyApp_interaction2.R
 Similar to the app above, but no `brush` function. It's made for visulize model with two continuous variable interactions.
-Slider bar can be used to set value for the `moderator`, and as the value changes, the lm line on the scatter plot will also change. Bottom left outputs the model using `lm(Y~ X+moderator+X:moderator).
-Bottom right outputs the predicted `Y` value based on the selected `X` variable and `moderator` value. 
+Slider bar can be used to set value for the `moderator`, and as the value changes, the lm line on the scatter plot will also change. Bottom left outputs the model using `lm(Y~ X+moderator+X:moderator)`.
+Bottom right outputs the predicted Y value based on the selected X variable and moderator value. 

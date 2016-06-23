@@ -1,27 +1,4 @@
-##############################################################
 
-#ShinyApp for data EDA
-#input a dataframe
-#output a scatterplot with option to select color,
-#size, shape, and smooth method
-
-#when click 'Facet' button, right panel will show scatterplot
-#stratified by 'group variable'
-
-#can use brush function, after drag and select, click 'DONE' button
-#will return the subset data output in DT::datatable at bottom left
-#and subset data will output another scatterplot on the right panel
-#bottom right is the linear model summary (lm())
-#click 'Download' button, subset data will be saved into a CSV file
-#default to your 'Download folder', right click 'Download' can select path
-
-#reference: http://shiny.rstudio.com/gallery/file-upload.html
-#http://shiny.rstudio.com/articles/gadgets.html
-#http://deanattali.com/2015/06/28/introducing-shinyjs-colourinput/
-
-# ~* *Lu, 05.31.16* *~
-
-##############################################################
 
 
 library(shiny)

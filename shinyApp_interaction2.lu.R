@@ -1,30 +1,10 @@
 
-##############################################################
-
-#ShinyApp for visulizing interactions in linear model
-#input a dataframe
-#output a scatterplot with option to select color,
-#size, shape, and smooth method
-
-#when click 'Apply' button, right panel will show scatterplot
-#based on input moderator value (slider), predition line will change
-
-#bottom right is the predicted value 
-#bottom left is the model output
-
-# ~* *Lu, 06.21.16* *~
-
-##############################################################
-
-
-#make sure the following packages are installed
 
 library(shiny)
 library(shinyjs)
 library(ggplot2)
 library(DT)
 
-###########################################################
 
 ui <- fluidPage(
   titlePanel("Interaction"),
